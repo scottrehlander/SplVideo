@@ -1,0 +1,120 @@
+#header
+{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	background-color:#FFFFFF;
+	margin:0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 100%;
+}
+
+#logo
+{
+	top: 10%;
+	width: 95%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+li
+{
+	margin:.5em 10% .5em 0
+}
+
+#searchbox
+{
+	top:80%;
+	width: 95%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#navigation
+{
+	font-size: 10px;
+}
+
+#mainSearchBar
+{
+	top: 20px;
+	left: 400px;
+	width: 300px;
+	position: absolute;
+}
+
+#mainSortBy
+{
+	top: 120px;
+	left: 570px;
+	width: 295px;
+	position: absolute;
+}
+
+#mainNavigation
+{
+	top: 155px;
+	width: 150px;
+	position: absolute;
+	text-align: left;
+	border-right: double #F0F2FF;
+	border-left: none;
+	border-bottom: solid #F0F2FF;
+}
+
+#mainVideoDisplay
+{
+	top: 170px;
+	left: 220px;
+	width: 600px;
+	position: absolute;
+	text-align: center;
+}
+
+#ratingDisplay
+{
+	top: 420;
+	left: 80px;
+	width: 600px;
+	position: absolute;
+	text-align: center;
+}
+
+
+#ads
+{
+	top: 150px;
+	left: 855px;
+	width: 200px;
+	position: absolute;
+	text-align: center;
+}
+
+#videoRow
+{
+	height: 115px;
+	width: 640px;
+	background-color:#FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F2FF', endColorstr='#DADDF2'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#F0F2FF), to(#DADDF2)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #F0F2FF,  #DADDF2); /* for firefox 3.6+ */
+}
+
+#spacer
+{
+	position: relative;
+	width: 10px;
+	height: 20px;
+}
